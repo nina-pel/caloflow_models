@@ -1,0 +1,19 @@
+Final best generative loss: -3.254113674
+Generative part time (without classifier): 0h 28m 14.67s
+Final Accuracy: 0.725250000
+Final AUC: 0.681485594
+Classifier time: 0h 2m 33.63s
+Regression time: 5h 8m 28.15s
+
+Regression results:
+E_inc=10 GeV: mean error = 0.26, std = 2.27, bin count of true energy = 35795 (35.80% of all results), FWHM = 3.58 GeV
+E_inc=20 GeV: mean error = 0.48, std = 3.36, bin count of true energy = 27321 (27.32% of all results), FWHM = 5.37 GeV
+E_inc=30 GeV: mean error = 0.56, std = 4.21, bin count of true energy = 20470 (20.47% of all results), FWHM = 7.16 GeV
+E_inc=40 GeV: mean error = 0.71, std = 5.16, bin count of true energy = 16503 (16.50% of all results), FWHM = 10.74 GeV
+E_inc=50 GeV: mean error = 1.00, std = 5.75, bin count of true energy = 15214 (15.21% of all results), FWHM = 8.95 GeV
+E_inc=60 GeV: mean error = 1.10, std = 6.35, bin count of true energy = 12809 (12.81% of all results), FWHM = 12.53 GeV
+E_inc=70 GeV: mean error = 1.36, std = 6.87, bin count of true energy = 11978 (11.98% of all results), FWHM = 14.32 GeV
+E_inc=80 GeV: mean error = 1.27, std = 7.05, bin count of true energy = 11410 (11.41% of all results), FWHM = 12.53 GeV
+E_inc=90 GeV: mean error = 0.47, std = 6.24, bin count of true energy = 10178 (10.18% of all results), FWHM = 17.90 GeV
+
+Total time taken: 5h 39m 16.56s

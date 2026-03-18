@@ -1,0 +1,24 @@
+=== CLASSIFIER RESULTS ===
+Classifier results not found. Make sure you stored them via:
+clf_acc, clf_auc = evaluate_model(model, dataloaders)
+
+=== REGRESSION RESULTS ===
+Total N: 894558
+Bias [GeV]: 1.076171
+MAE [GeV]: 3.642906
+RMSE [GeV]: 5.082402
+Std [GeV]: 4.967159
+68% width [GeV]: 8.420704
+Relative MAE [%]: 8.890595
+Relative RMSE [%]: 13.390739
+
+=== PER-ENERGY REGRESSION SUMMARY ===
+E_true=10 GeV | N=99999 | Bias=0.893743 GeV | MAE=1.583054 GeV | RMSE=2.356468 GeV | Std=2.180405 GeV | Median=0.800835 GeV | 68% width=3.266945 GeV | Sat. frac=0.001000%
+E_true=20 GeV | N=99998 | Bias=1.182813 GeV | MAE=2.398423 GeV | RMSE=3.480253 GeV | Std=3.273090 GeV | Median=0.601669 GeV | 68% width=5.345909 GeV | Sat. frac=0.002000%
+E_true=30 GeV | N=99997 | Bias=1.511729 GeV | MAE=3.105083 GeV | RMSE=4.328912 GeV | Std=4.056372 GeV | Median=0.996494 GeV | 68% width=7.523874 GeV | Sat. frac=0.003000%
+E_true=40 GeV | N=99995 | Bias=1.820456 GeV | MAE=3.585495 GeV | RMSE=4.919798 GeV | Std=4.570597 GeV | Median=1.490318 GeV | 68% width=7.622871 GeV | Sat. frac=0.005000%
+E_true=50 GeV | N=99994 | Bias=1.651635 GeV | MAE=3.867976 GeV | RMSE=5.362504 GeV | Std=5.101818 GeV | Median=0.598160 GeV | 68% width=7.721867 GeV | Sat. frac=0.006000%
+E_true=60 GeV | N=99990 | Bias=1.348796 GeV | MAE=4.457501 GeV | RMSE=5.851869 GeV | Std=5.694306 GeV | Median=0.992985 GeV | 68% width=10.295826 GeV | Sat. frac=0.010000%
+E_true=70 GeV | N=99861 | Bias=1.125264 GeV | MAE=4.689867 GeV | RMSE=6.229237 GeV | Std=6.126759 GeV | Median=0.199829 GeV | 68% width=11.879799 GeV | Sat. frac=0.139000%
+E_true=80 GeV | N=99110 | Bias=0.676303 GeV | MAE=4.676684 GeV | RMSE=6.184261 GeV | Std=6.147170 GeV | Median=-0.197334 GeV | 68% width=11.186813 GeV | Sat. frac=0.890000%
+E_true=90 GeV | N=95614 | Bias=-0.602191 GeV | MAE=4.468992 GeV | RMSE=5.677004 GeV | Std=5.644975 GeV | Median=-0.396500 GeV | 68% width=10.790817 GeV | Sat. frac=4.386000%

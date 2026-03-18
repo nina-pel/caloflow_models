@@ -1,0 +1,57 @@
+final best loss: 5.509538650512695
+Saved: CLNF_affine_results/CLNF_layer_energy_histograms.png
+Generative part runtime (without classifier): 0h 16m 13.28s
+highest validation accuracy:  0.503393
+Accuracy: 0.503392857, AUC (area under roc curve): 0.987805112
+Classifier runtime: 0h 2m 31.51s
+E_inc=10 GeV: mean error = 0.03, std = 2.24
+  Bin count of true energy (10 GeV): 32796 (32.80%)
+  Full width at half maximum (FWHM): 3.58 GeV
+E_inc=20 GeV: mean error = 0.07, std = 3.24
+  Bin count of true energy (20 GeV): 28559 (28.56%)
+  Full width at half maximum (FWHM): 5.37 GeV
+E_inc=30 GeV: mean error = 0.02, std = 4.12
+  Bin count of true energy (30 GeV): 20446 (20.45%)
+  Full width at half maximum (FWHM): 7.16 GeV
+E_inc=40 GeV: mean error = 0.13, std = 4.88
+  Bin count of true energy (40 GeV): 18498 (18.50%)
+  Full width at half maximum (FWHM): 8.95 GeV
+E_inc=50 GeV: mean error = 0.21, std = 5.42
+  Bin count of true energy (50 GeV): 15756 (15.76%)
+  Full width at half maximum (FWHM): 10.74 GeV
+E_inc=60 GeV: mean error = 0.07, std = 5.88
+  Bin count of true energy (60 GeV): 14669 (14.67%)
+  Full width at half maximum (FWHM): 10.74 GeV
+E_inc=70 GeV: mean error = -0.22, std = 6.30
+  Bin count of true energy (70 GeV): 13195 (13.20%)
+  Full width at half maximum (FWHM): 10.74 GeV
+E_inc=80 GeV: mean error = -0.72, std = 6.48
+  Bin count of true energy (80 GeV): 11749 (11.75%)
+  Full width at half maximum (FWHM): 12.53 GeV
+E_inc=90 GeV: mean error = -1.91, std = 5.98
+  Bin count of true energy (90 GeV): 11987 (11.99%)
+  Full width at half maximum (FWHM): 10.74 GeV
+
+=== Per-energy regression summary (unfiltered) ===
+E_true [GeV]          N  Bias [GeV]  MAE [GeV]  RMSE [GeV]  Std [GeV]  68% width [GeV]  Sat. frac
+        10     100000       0.034      1.549       2.244      2.244            3.404      0.00%
+        20     100000       0.066      2.309       3.241      3.240            5.196      0.00%
+        30     100000       0.019      2.999       4.118      4.118            6.988      0.00%
+        40     100000       0.133      3.580       4.881      4.879            8.421      0.00%
+        50     100000       0.206      4.013       5.427      5.423            9.496      0.00%
+        60     100000       0.070      4.362       5.878      5.878           10.213      0.00%
+        70     100000      -0.224      4.737       6.301      6.297           11.109      0.00%
+        80     100000      -0.715      4.988       6.522      6.483           11.826      0.00%
+        90     100000      -1.908      4.991       6.277      5.980           11.826      0.00%
+
+=== Global regression summary (all energies pooled) ===
+Total N: 900000
+Bias  [GeV]: -0.258
+MAE   [GeV]: 3.725
+RMSE  [GeV]: 5.185
+Std   [GeV]: 5.179
+68% width [GeV]: 8.498
+Relative MAE  [%]: 8.869
+Relative RMSE [%]: 12.967
+Regression runtime: 2h 28m 46.03s
+Total runtime: 2h 47m 30.83s

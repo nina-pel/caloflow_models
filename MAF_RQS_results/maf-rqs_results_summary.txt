@@ -1,0 +1,24 @@
+=== CLASSIFIER RESULTS ===
+Accuracy: 0.556643
+AUC: 0.589985
+
+=== REGRESSION RESULTS ===
+Total N: 898941
+Bias [GeV]: 0.530076
+MAE [GeV]: 3.595946
+RMSE [GeV]: 4.962745
+Std [GeV]: 4.934354
+68% width [GeV]: 8.315857
+Relative MAE [%]: 8.630176
+Relative RMSE [%]: 12.513883
+
+=== PER-ENERGY REGRESSION SUMMARY ===
+E_true=10 GeV | N=99988 | Bias=0.157240 GeV | MAE=1.479320 GeV | RMSE=2.118474 GeV | Std=2.112631 GeV | Median=0.107846 GeV | 68% width=3.167946 GeV | Sat. frac=0.012000%
+E_true=20 GeV | N=100000 | Bias=0.381550 GeV | MAE=2.344330 GeV | RMSE=3.224873 GeV | Std=3.202222 GeV | Median=0.106678 GeV | 68% width=5.246910 GeV | Sat. frac=0.000000%
+E_true=30 GeV | N=100000 | Bias=0.591681 GeV | MAE=2.985741 GeV | RMSE=4.041157 GeV | Std=3.997608 GeV | Median=0.204508 GeV | 68% width=7.028883 GeV | Sat. frac=0.000000%
+E_true=40 GeV | N=100000 | Bias=0.774456 GeV | MAE=3.399277 GeV | RMSE=4.688026 GeV | Std=4.623614 GeV | Median=0.401337 GeV | 68% width=7.919865 GeV | Sat. frac=0.000000%
+E_true=50 GeV | N=99998 | Bias=0.957014 GeV | MAE=3.940319 GeV | RMSE=5.324674 GeV | Std=5.237965 GeV | Median=0.598160 GeV | 68% width=9.305840 GeV | Sat. frac=0.002000%
+E_true=60 GeV | N=99992 | Bias=1.012257 GeV | MAE=4.268754 GeV | RMSE=5.714211 GeV | Std=5.623837 GeV | Median=0.794991 GeV | 68% width=9.998829 GeV | Sat. frac=0.008000%
+E_true=70 GeV | N=99987 | Bias=0.926896 GeV | MAE=4.759053 GeV | RMSE=6.228762 GeV | Std=6.159410 GeV | Median=0.199829 GeV | 68% width=11.483803 GeV | Sat. frac=0.013000%
+E_true=80 GeV | N=99867 | Bias=0.682304 GeV | MAE=4.741449 GeV | RMSE=6.164029 GeV | Std=6.126150 GeV | Median=0.495659 GeV | 68% width=11.483803 GeV | Sat. frac=0.133000%
+E_true=90 GeV | N=99109 | Bias=-0.723628 GeV | MAE=4.454400 GeV | RMSE=5.544226 GeV | Std=5.496799 GeV | Median=-0.594490 GeV | 68% width=11.087814 GeV | Sat. frac=0.891000%
