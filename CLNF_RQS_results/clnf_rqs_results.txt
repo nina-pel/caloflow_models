@@ -1,0 +1,36 @@
+CLNF - RQS results
+====================
+
+Final Accuracy: 0.533464
+Final AUC: 0.541761
+
+Timing
+------
+1. Generative part without classifier: 2h 11m 13.00s
+2. Classifier: 0h 2m 27.22s
+3. Regression: 4h 45m 50.78s
+Total time taken: 6h 59m 33.17s
+
+Per-energy regression summary (edge-saturation filtered)
+-------------------------------------------------------
+    E_true        N         Bias        MAE       RMSE        Std       Median      68% width   Sat.frac
+        10    99996        0.334      1.433      2.178      2.152        0.009          3.168      0.00%
+        20   100000        0.416      2.184      3.106      3.078        0.008          4.950      0.00%
+        30   100000        0.464      2.785      3.862      3.834        0.007          6.435      0.00%
+        40   100000        0.519      3.343      4.554      4.524        0.104          7.920      0.00%
+        50   100000        0.485      3.759      5.070      5.047       -0.095          8.910      0.00%
+        60    99994        0.384      4.143      5.566      5.552       -0.195          9.900      0.01%
+        70    99946        0.304      4.594      6.067      6.059       -0.295         10.989      0.05%
+        80    99386        0.132      4.790      6.212      6.211       -0.296         11.682      0.61%
+        90    96213       -0.770      4.573      5.716      5.664       -0.792         11.583      3.79%
+
+Global regression summary (all energies pooled)
+----------------------------------------------
+Total N: 895535
+Bias  [GeV]: 0.256
+MAE   [GeV]: 3.506
+RMSE  [GeV]: 4.880
+Std   [GeV]: 4.874
+68% width [GeV]: 8.121
+Relative MAE  [%]: 8.342
+Relative RMSE [%]: 12.384

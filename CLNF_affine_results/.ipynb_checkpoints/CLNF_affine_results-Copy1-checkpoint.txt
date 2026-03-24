@@ -1,0 +1,57 @@
+final best loss: 7.051765441894531
+Saved: CLNF_affine_results/CLNF_layer_energy_histograms.png
+Generative part runtime (without classifier): 0h 28m 35.74s
+highest validation accuracy: 0.890857
+Accuracy: 0.890857143, AUC (area under roc curve): 0.956163663
+Classifier runtime: 0h 2m 26.22s
+E_inc=10 GeV: mean error = 3.14, std = 13.27, sat = 0.55%, time = 39.02s
+  Bin fraction at true energy: 14.14%
+  FWHM: 5.95 GeV
+E_inc=20 GeV: mean error = 4.66, std = 16.54, sat = 0.39%, time = 39.20s
+  Bin fraction at true energy: 8.43%
+  FWHM: 9.52 GeV
+E_inc=30 GeV: mean error = 2.49, std = 13.87, sat = 0.43%, time = 38.98s
+  Bin fraction at true energy: 6.93%
+  FWHM: 11.90 GeV
+E_inc=40 GeV: mean error = 1.13, std = 12.74, sat = 0.68%, time = 39.08s
+  Bin fraction at true energy: 6.08%
+  FWHM: 15.47 GeV
+E_inc=50 GeV: mean error = 0.43, std = 13.12, sat = 1.05%, time = 39.35s
+  Bin fraction at true energy: 5.04%
+  FWHM: 19.04 GeV
+E_inc=60 GeV: mean error = -0.45, std = 14.12, sat = 1.97%, time = 39.16s
+  Bin fraction at true energy: 4.82%
+  FWHM: 19.04 GeV
+E_inc=70 GeV: mean error = -1.06, std = 15.28, sat = 3.53%, time = 39.07s
+  Bin fraction at true energy: 4.22%
+  FWHM: 21.42 GeV
+E_inc=80 GeV: mean error = -2.10, std = 15.86, sat = 6.39%, time = 39.21s
+  Bin fraction at true energy: 4.03%
+  FWHM: 29.75 GeV
+E_inc=90 GeV: mean error = -4.75, std = 15.78, sat = 12.29%, time = 39.12s
+  Bin fraction at true energy: 3.56%
+  FWHM: 1.19 GeV
+
+=== Per-energy regression summary ===
+E_true [GeV]        N   Bias [GeV]  MAE [GeV]  RMSE [GeV]  Std [GeV]  68% width [GeV]  Sat. frac
+        10    99453        3.137      5.712      13.632     13.266            7.821      0.55%
+        20    99606        4.662      8.655      17.185     16.541           13.068      0.39%
+        30    99568        2.492      8.102      14.094     13.872           14.355      0.43%
+        40    99319        1.129      8.367      12.791     12.741           16.632      0.68%
+        50    98946        0.432      9.147      13.132     13.125           18.909      1.05%
+        60    98029       -0.447      9.926      14.130     14.123           20.544      1.97%
+        70    96472       -1.059     10.852      15.320     15.283           23.562      3.53%
+        80    93613       -2.098     11.240      16.001     15.863           25.245      6.39%
+        90    87710       -4.752     10.693      16.481     15.781           23.067     12.29%
+
+=== Global regression summary (all energies pooled) ===
+Total N: 872716
+Bias  [GeV]: 0.481
+MAE   [GeV]: 9.147
+RMSE  [GeV]: 14.794
+Std   [GeV]: 14.786
+68% width [GeV]: 17.720
+Relative MAE  [%]: 25.257
+Relative RMSE [%]: 59.988
+Regression runtime: 0h 5m 55.87s
+Total runtime: 0h 36m 57.82s
